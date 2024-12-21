@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://g.top4top.io/p_3277kcrl30.jpg')no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: block;
+            margin: 15px auto;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            width: 200px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .links a img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .translate-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <button class="translate-btn" onclick="toggleLanguage()">EN / AR</button>
+    <header>
+        <img src="https://k.top4top.io/p_3277uro230.jpg" alt="صورتك الشخصية">
+        <h1>هوشنك</h1>
+    </header>
+    <div class="links">
+        <a href="https://www.instagram.com/l_h0g?igsh=dG4za3VjMHMwZGZ3" target="_blank">
+            <img src="https://l.top4top.io/p_3277c1dea0.jpg" alt="انستغرام">
+            <span>إنستغرام</span>
+        </a>
+        <a href="https://www.facebook.com/share/uF3sxo8vZPfGAhiR/" target="_blank">
+            <img src="https://c.top4top.io/p_32778bgt00.jpg" alt="فيسبوك">
+            <span>فيسبوك</span>
+        </a>
+        <a href="https://www.tiktok.com/@hoshang_hemo?_t=8sP0Q5CZ023&_r=1" target="_blank">
+            <img src="https://g.top4top.io/p_3277v1nk30.jpg" alt="تيكتوك">
+            <span>تيكتوك</span>
+        </a>
+        <a href="https://www.snapchat.com/add/hoshanghemo14?share_id=kQZs19Byjy8&locale=ar-EG" target="_blank">
+            <img src="https://l.top4top.io/p_3277jt87v0.jpg" alt="سناب">
+            <span>سناب</span>
+        </a>
+        <a href="https://t.me/uu5uh" target="_blank">
+            <img src="https://l.top4top.io/p_3277258te0.jpg" alt="تلجرام">
+            <span>تلجرام</span>
+        </a>
+        <a href="https://x.com/hoshanghemo?t=BdKrCGQJLnPoOOngE8sZgQ&s=09" target="_blank">
+            <img src="https://d.top4top.io/p_3277goyiu0.jpg" alt="تويتر">
+            <span>تويتر</span>
+        </a>
+        <a href="https://wa.me/+9647517886149" target="_blank">
+            <img src="https://f.top4top.io/p_32770tgs00.jpg" alt="واتس">
+            <span>واتس</span>
+        </a>
+        <a href="https://discord.com/users/1253441770310598810" target="_blank">
+            <img src="https://l.top4top.io/p_3277ggc2p0.jpg" alt="ديسكورد">
+            <span>ديسكورد</span>
+        </a>
+    </div>
+    <script>
+        function toggleLanguage() {
+            const header = document.querySelector('header h1');
+            const links = document.querySelectorAll('.links a span');
+            if (document.documentElement.lang === 'ar') {
+                document.documentElement.lang = 'en';
+                header.textContent = '𝐇𝐎𝐒𝐇𝐀𝐍𝐆';
+                links[0].textContent = 'Instagram';
+                links[1].textContent = 'Facebook';
+                links[2].textContent = 'TikTok';
+                links[3].textContent = 'Snapchat';
+                links[4].textContent = 'Telegram';
+                links[5].textContent = 'Twitter';
+                links[6].textContent = 'WhatsApp';
+                links[7].textContent = 'Discord';
+            } else {
+                document.documentElement.lang = 'ar';
+                header.textContent = 'هوشنك';
+                links[0].textContent = 'إنستغرام';
+                links[1].textContent = 'فيسبوك';
+                links[2].textContent = 'تيكتوك';
+                links[3].textContent ='سناب' ;
+                links[4].textContent = 'تلجرام';
+                links[5].textContent = 'تويتر';
+                links[6].textContent = 'واتساب';
+                links[7].textContent = 'ديسكورد';
+                        }
+        }
+    </script>
+</body>
+</html>
